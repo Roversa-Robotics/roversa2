@@ -17,10 +17,12 @@ https://sites.google.com/roversa.com/roversa-classroom/troubleshooting/firmware
 
 Files are named `YYYYMMDD-roversa-x.y.z.hex` (release date, then firmware version), so they sort in release order.
 
+`Older/` may also include versions with extra diagnostics (with `-diag`) as part of the filename. 
+
 ## Publishing a new release (maintainers)
 
-1. Move the current versioned file into `Older/`.
-2. Add the new build as `YYYYMMDD-roversa-x.y.z.hex`.
+1. Move the current versioned file into `Older/`. If it's already there, just remove the old file at the root.
+2. Add the new build as `YYYYMMDD-roversa-x.y.z.hex` at the root and add it to the `Older/` folder as well. If there is a `diag` build, include it in the `Older/` directory.
 3. Copy the new build over `roversa-latest.hex`.
 4. Update the version and date at the top of this readme.
 5. Do the same in the Google Drive firmware folder.
