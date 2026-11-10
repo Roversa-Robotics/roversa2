@@ -12,12 +12,12 @@ https://sites.google.com/roversa.com/roversa-classroom/troubleshooting/firmware
 | File | What it is |
 |------|------------|
 | `roversa-latest.hex` | Always the current release. This link never changes. |
-| `20261104-roversa-3.1.3.hex` | The same file, named with its release date and version. |
+| `20261104-roversa-3.2.0.hex` | The same file, named with its release date and version. |
 | `Older/` | Earlier releases, kept for reference. |
 
 Files are named `YYYYMMDD-roversa-x.y.z.hex` (release date, then firmware version), so they sort in release order.
 
-`Older/` may also include versions with extra diagnostics (with `-diag`) as part of the filename. 
+`Older/` may also include versions with extra diagnostics (with `-diag`) as part of the filename.
 
 ## Publishing a new release (maintainers)
 
